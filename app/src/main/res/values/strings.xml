@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Code QR-Chat-BSD</string>
+    <string name="TitleReader">Reader Code QR</string>
+    <string name="TitleGenerator">Generator Code QR</string>
+</resources>

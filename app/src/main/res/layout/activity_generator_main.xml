@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devix.codeqr_chat_bsd.com.devix.codeqr.GeneratorMain">
+
+    <EditText
+        android:id="@+id/edtGenerator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Letters and Numbers"
+        />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtGenerator"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Generate"
+        android:textColor="#fff"
+        android:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/imgCodeQR"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>
